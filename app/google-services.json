@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "903506811384",
+    "firebase_url": "https://securitymessenger-3915f.firebaseio.com",
+    "project_id": "securitymessenger-3915f",
+    "storage_bucket": "securitymessenger-3915f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903506811384:android:5a7fcebd9870ebc36c1e0d",
+        "android_client_info": {
+          "package_name": "com.mydogenterprises.securitymessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903506811384-0gbk60emsbpmvlbkbe69vgj65vek77n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP_2gb0k9BiOlc1cjml4YEfu-0fLK1lx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903506811384-0gbk60emsbpmvlbkbe69vgj65vek77n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
