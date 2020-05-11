@@ -13,4 +13,10 @@
     <string name="action_register">Cadastrar</string>
     <string name="nome">Nome</string>
     <string name="bSelectImg">Foto</string>
+    <string name="contacts">Contatos</string>
+    <string name="logout">Sair</string>
+    <string name="btn_chat">Enviar</string>
+    <string name="message">Digite a mensagem</string>
+    <string name="txt_test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit suscipit erat non porttitor. Donec at ipsum sit amet diam hendrerit porttitor non a dolor. Duis ornare eros sit amet dignissim varius. Suspendisse pharetra in lacus at congue. Nulla augue diam, pharetra malesuada tincidunt eu, consequat ac mauris. Nunc tristique pretium tortor, id vestibulum dolor varius sit amet. Duis viverra nisi bibendum metus efficitur, et consequat ipsum dapibus. Sed id leo eget nisi porttitor interdum. Cras consequat dignissim est, sit amet vulputate augue. Praesent turpis libero, semper sed odio in, rutrum tempor ipsum. In elementum, magna a ultricies viverra, neque odio feugiat orci, a sollicitudin quam eros at arcu. Nulla ac finibus lacus. Ut lacus ante, faucibus in tellus et, fermentum egestas velit. Praesent enim nisi, faucibus in nulla a, volutpat accumsan est. Vestibulum porta nisl ut purus sollicitudin pretium. Praesent in fermentum libero, rutrum volutpat sapien.</string>
+    <string name="txt_base">Digite a mensagem</string>
 </resources>

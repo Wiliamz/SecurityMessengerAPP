@@ -31,6 +31,8 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.mydogenterprises.securitymessenger.R;
 import com.mydogenterprises.securitymessenger.data.model.User;
+import com.mydogenterprises.securitymessenger.ui.login.LoginActivity;
+import com.mydogenterprises.securitymessenger.ui.messages.MessagesActivity;
 
 import java.io.IOException;
 import java.net.URI;
@@ -149,7 +151,13 @@ public class RegisterActivity extends AppCompatActivity {
                                 .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                                     @Override
                                     public void onSuccess(DocumentReference documentReference) {
-                                        Log.i("Teste", documentReference.getId());
+                                       Log.i("Teste", documentReference.getId());
+                                       Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+
+                                       intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                                       startActivity(intent);
+
                                     }
                                 }).addOnFailureListener(new OnFailureListener() {
                             @Override
